@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <from action="" methon="get">
+        <label for="nama_lengkap">Nama Lengkap*</label>
+        <input
+         type="text"
+         name="nama_lengkap" 
+         placeholder="silahkan masukkan" 
+         required
+         value="Nama kalian"
+         autocomplete="off"
+         />
+        <br />
+         <!-- Input Radio --> 
+
+         <br />
+        <input type="Radio" name="jenis_kalian" required value="cowok" />
+         <label for="nama_lengkap">Laki-Laki</label>
+        <br />
+         <input type="radio"name="jenis_kelamin" required value="Cewek" />
+         <label for="nama_lengkap">Permpuan</label>
+        <br />
+         <!-- input Checkbox -->
+         <br />
+         <input type="checkbox" value="bola" name="hobi" />
+         <label for="hobi">Bola</label><br />
+
+         <input type="checkbox" value="batminton" name="hobi" />
+         <label for="hobi">Batminton</label><br />
+
+         <input type="checkbox" value="makan" name="hobi" />
+         <label for="hobi">Makan</label><br />
+
+         <input type="checkbox" value="mancing" name="hobi" />
+         <label for="hobi">Mancing</label><br />
+
+         <!-- input date  -->
+         <br />
+         <label for="">Date</label><br />
+         <input type="date" /><br />
+
+         <!-- infut textarea -->
+         <br />
+         <label for="">Text Area</label><br />
+         <textarea name="" id="" cols="30" rows="10" >Contoh saja...</textarea>
+
+        <!-- input select -->
+        <br /><br />
+        <label for="Jurusan">input select</label><br />
+        <select name="Jurusan">
+            <option value="TI">Teknik Informatika</option>
+            <option value="SI">Sistem Informasi</option>
+        </select>
+        <br />
+
+        <!-- tombol kirim -->
+        <br /><br />
+        <input type="submit" value="kirim">
+        <button type="submit">kirim</button>
+
+    </from>
+</body>
+</html>
